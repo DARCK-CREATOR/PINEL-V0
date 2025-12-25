@@ -18,7 +18,7 @@ h1{
 }
 .imageBox{
   border: 1px solid #2d2d2d;
-  height: 450px;
+  height: 400px;
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 10px;
