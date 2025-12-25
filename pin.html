@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pin.css">
+   <link rel="stylesheet" href="bootstrap-icons-1.13.1/font/bootstrap-icons.css">
+  <title>PINEL</title>
+</head>
+<body>
+  <h1>PINEL <i class="bi bi-images"></i></h1>
+  <div class="content">
+    <div class="imageBox">
+      <div class="content-intro">
+        Bonjour je suis pinel demande moi une photo &hearts; <i class="bi bi-image"></i>
+      </div>
+    
+    </div>
+    <div class="imageFooter">
+      <div class="suggestions">
+        <div class="suggest-btn" onclick="search('nature')">
+          Nature
+        </div>
+        <div class="suggest-btn" onclick="search('Technologie')">
+          Technologie
+        </div>
+        <div class="suggest-btn" onclick="search('boisson')">
+          Boisson
+        </div>
+        <div class="suggest-btn" onclick="search('animaux')">
+          Animaux
+        </div>
+        <div class="suggest-btn" onclick="search('style')">
+          Styles
+        </div>
+      </div>
+      <div class="input">
+      <input type="text" name="images" placeholder="Rechercher une image" class="input-image">
+      <button type="button" class="btn-image" onclick="send()">
+        <i class="bi bi-airplane"></i>
+      </button>
+      </div>
+    </div>
+  </div>
+  <script src="pin.js"></script>
+</body>
+</html>
